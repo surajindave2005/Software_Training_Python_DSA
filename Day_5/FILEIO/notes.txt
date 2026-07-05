@@ -1,0 +1,5 @@
+
+FIle io
+ - whenever we have to use the data in future that time we used file handling
+ - whenere we have to store the data for future purpose so we used the file handling concept
+ 

@@ -1,0 +1,6 @@
+Real time mapping -> fetching record from db to user interface 
+
+-> Key value pair 
+-> Duplicate key is not allowed
+-> Duplicate value is allowed.
+-> dict by nature is growable

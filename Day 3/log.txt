@@ -1,0 +1,11 @@
+DEBUG:root:This indicates the debugging information
+INFO:root:This indicates the important information 
+ERROR:root:This indicate the error information 
+WARNING:root:This indicate the warning information 
+CRITICAL:root:This indicates the critical information 
+DEBUG:root:This indicates the debugging information
+INFO:root:This indicates the important information 
+ERROR:root:This indicate the error information 
+WARNING:root:This indicate the warning information 
+CRITICAL:root:This indicates the critical information 
+ERROR:root:This indicates the error information 

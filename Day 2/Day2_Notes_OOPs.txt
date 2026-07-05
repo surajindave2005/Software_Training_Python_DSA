@@ -1,0 +1,84 @@
+
+Youtube Prodcast watch
+George hodz
+
+class method is pending -> do for yourself.
+
+Application Design
+    -> OOPs Concept
+    -> Scalable
+    -> Solied princple
+    -> Low level and high level design 
+    -> support system 
+    -> General purpose application 
+    
+    Main princple 
+    1) Inheritance (reuse code, Code optimization, memory managment)
+    2) Abstraction (Data hiding process)
+    3) Encapsulation 
+    4) Polymorphism 
+
+class name -> naming convention
+
+
+Q1) Diff between function and method
+    - using . member operator we use class method
+    - by calling function name we use function
+    
+Q2) Who provide memory to Obj. 
+    -> Default Constructor provide a class obj 
+
+Q3) How much memory does the object required
+    -> Number of Data member and member function 
+    -> Address converted into a hex format
+
+
+Q4) Types of variable
+    -> Instance variable -> Instance variable always depends on a object (Real life example -> single student record )
+    -> static variable -> Static variable does not depends on a object (Real life example -> Collage name ), It will create a single memory for all the object. 
+        -> To access the static variable using a classname.
+
+    -> local variable
+
+Q5) Where we can declare the instance variable 
+    -> inside a Constructor using self variable , inside a method variable, outside the class using object 
+    -> to delete the instance variable using del keyword
+    -> Internally data value store in dict data structure 
+
+Q6) Types of method
+    -> Class method
+    -> Static method It dose not depends on obj but it will belong to the class (real life example -> Collage addmission )
+        -> declare static method : @staticmethod
+        -> Access the static method use Class name 
+        -> does not need to pass a self parameter.
+
+    -> Instance method -> Instance method should have self parameter void show(self)
+
+    
+Abstraction:
+    -Application :
+        1) API intergration 
+            -> Toke base API and Auth API 
+
+        2) Scalable project 
+
+Polymorphism:
+    -> Having a many forms
+    -> Ability of msg display multiple form 
+    -> compiler time -> static binding 
+    -> Python does not support method overloading and constructor overloading 
+        -> issue : by default it will match the last function 
+
+
+
+Multithreading -> task independed
+
+Destructor 
+    - deallocation of resource 
+
+garbage collector 
+     - unused memory ko use krta hai 
+     - GC module--------------------------------> Destructor
+        |      <------------------ACK---------------
+        |
+        obj(1001)

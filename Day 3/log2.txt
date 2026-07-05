@@ -1,0 +1,22 @@
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\jeetg\Desktop\Software Training\Day 3\loggingModule.py", line 22, in <module>
+    print("Result is -> ", a/b);
+                           ~^~
+ZeroDivisionError: division by zero
+ERROR:root:----------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\jeetg\Desktop\Software Training\Day 3\loggingModule.py", line 22, in <module>
+    print("Result is -> ", a/b);
+                           ~^~
+ZeroDivisionError: division by zero
+ERROR:root:invalid literal for int() with base 10: '/'
+Traceback (most recent call last):
+  File "C:\Users\jeetg\Desktop\Software Training\Day 3\loggingModule.py", line 20, in <module>
+    b = int(input("Enter b value "));
+ValueError: invalid literal for int() with base 10: '/'
+ERROR:root:----------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\jeetg\Desktop\Software Training\Day 3\loggingModule.py", line 20, in <module>
+    b = int(input("Enter b value "));
+ValueError: invalid literal for int() with base 10: '/'

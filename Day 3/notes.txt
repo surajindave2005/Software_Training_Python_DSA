@@ -1,0 +1,36 @@
+# Types of Error
+#     -> Runtime Error or Exception handling(Wrong ip, server issue)
+#     -> SYntax Error 
+
+
+# Recursion and Looping
+
+# Recursion Take more memory -> Space time complexity 
+# -> Recursion used Stack memory
+
+Error Free application design
+Adv part -> Login System
+
+Q1) What is Exception handling
+Q2) Why Exception handling
+    - Normal flow of Execution chalna chahiye
+Q3) can we handle the multiple Exception at same Except 
+    -> YES!!
+
+404 -> Data is not comming for database for server 
+
+Except used for handle the error
+# Default except block
+# if we have requarment of multiple except block then in that switiation default exception block should be in last othe wise systex error will 
+
+else:
+    -> We can use else block if no error will genrate it is depend on our own need and neccessity 
+
+Finally:
+- It complet depends on requarment
+
+user define exception used  
+    -> raise exception
+
+Adv topic of Exception handling -> IMP
+

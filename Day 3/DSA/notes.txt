@@ -1,0 +1,86 @@
+Whats is DS:
+    -> Data structure are diff ways of organizing data on your computer that can be used effectively.
+    -> Data inconsistance 
+    -> Data organizing
+
+    -> Real life example    
+        -> Ticket counter 
+
+Algorithm 
+    -> Finite steps 
+    -> Compression Algorithm
+
+What are the 2 main features are in Algorithm
+    -> Conrrectness
+    -> Efficiency
+
+where you used / apply data structure 
+    -> Bussiness logic Layer 
+
+Data Processing
+
+    INput ------> Processing ------> output
+    1,2,3 ->        Sorting,        -> Temp
+                    Searching,
+                    Mathamatical-
+                    opertion
+
+Time complexity
+    -> Depends of condition 
+    -> most used Big O - O(N) -> BEST CASE
+                 Big-Omega : AVERAGE CASE
+                 Big-Theta :  WORST CASE
+    
+
+Constant time -> O(1)
+    -   Accessibg a specific elements in arrray.
+
+Linear Time -> O(N)
+    -   Loop through arraye elements.
+    -   example
+        for elements in array:
+            print(elements)
+
+Logarithmic Time -> O(LogN)
+    -   Find an elements in sorted array.
+    -   only some index visited
+    -   Binary search algo 
+    -   example:
+        arr = [1,2,3,4,6]
+        for index in range(0, len(array), 3):
+            print(arr[index])
+    
+
+Quadradic Time -> O(N sqr);
+    -> WORST CASE
+    -> Looking at every index twice
+    -> arr = [1,2,3,4,5];
+    for x in arr:
+        for y in arr:
+        print(x, y)
+
+Exponential Time -> O(2 sqr(n))
+    -> When you have a double recursion part
+    -> Fibonacci Series
+    -> if n<=1:
+            return 1;
+        else:
+            return fibo(n-1) + fib(n-2)
+
+
+Stack Operation
+1. Push
+2. Pop
+3. Peek
+4. isEmpty
+5. isFull
+6. Delete 
+7. Display
+
+Stack using List:
+    - Eady to implement 
+    - Speed problem when it grows
+
+Stack using Linked List:
+    -Fast performace 
+    

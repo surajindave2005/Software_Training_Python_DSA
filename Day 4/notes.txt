@@ -1,0 +1,19 @@
+Collection Datatype:
+    1. List - 
+        order-wise data
+        Heterogeneous data are possible in List
+        represented by []
+        duplicate allowed
+        by nature it is growable
+
+
+why python is dynamically typed language:
+    no explicit Datatype is to be declared
+    Interpreter/PVM - Python virtual machine assigns Datatype/class as per the value 
+
+membership operators :
+    1. in 
+    2. not in 
+
+
+andrej Karpathy - AI research and educator

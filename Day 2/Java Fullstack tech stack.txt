@@ -1,0 +1,7 @@
+Java full stack
+
+1) Public API
+2) Tech set : F.E(react, HTML, CSS, JS, ) BE(Spring boot, hibernet, core java (java 8 - 17 features), Mircroservices, Rest API, Debugg, GenAI, ,Prompt Enginnerin) (Cloud deploy), (GIT, Github), CI/CT (platform), Docker 
+
+
+

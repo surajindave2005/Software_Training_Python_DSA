@@ -1,0 +1,9 @@
+------------------------INFORMATION--------------------------------
+Your name is | Suraj Indave 
+Your gender is | male
+Total Marks | 287
+Percentage | 71.75
+---------------------- Subjects ----------------------
+Chem = 99 phy = 100 math = 88 
+------------------ RESULT -------------------------
+pASS!!Your eligible for placement
