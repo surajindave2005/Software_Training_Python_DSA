@@ -84,3 +84,7 @@ Stack using List:
 Stack using Linked List:
     -Fast performace 
     
+Stack example -> WEB HISTORY 
+
+Queue example:
+    Point sales sys in resto 
