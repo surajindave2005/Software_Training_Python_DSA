@@ -79,7 +79,7 @@ import re;
 
 
 
-searchWord = input("Enter a word which you want to search it: ");
+# searchWord = input("Enter a word which you want to search it: ");
 
 
 # fullmatch() -> yeh function pure data ko match krta hai means example is data = hello suraj and user ne agar enter kia sirf suraj toh voh None return kr dega because user ne full string enter nahi kia hai, agar user ne hello suraj enter kia toh uske start() and end() index hame return krega 
@@ -94,3 +94,18 @@ searchWord = input("Enter a word which you want to search it: ");
 #     print(mtch.start(), "....", mtch.end(), ".....", ", Word: ", mtch.group())
 # else:
 #     print("Match not found at begining part")
+
+
+# search()
+searchWord = input("Enter a word which you want to search it: ");
+
+mtch = re.search(searchWord, "Hello Suraj Indave")
+
+print(mtch);
+
+if mtch!=None:
+    print("Match found at begining..")
+    print(mtch.start(), "....", mtch.end(), ".....", ", Word: ", mtch.group())
+else:
+    print("Match not found at begining part")
+
