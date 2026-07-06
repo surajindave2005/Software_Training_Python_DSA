@@ -1,0 +1,11 @@
+
+Functions
+    - In a python we return the multiple value as same type 
+
+Regular expression
+    -> Develop the digital circuit 
+    -> Validation logic
+    -> Pattern Matching
+    -> we used 're' module
+
+Sys software Development c, c++ language used
