@@ -1,4 +1,4 @@
-# import re;
+import re;
 
 # print("----------------------------- SEARCH ENGINE ---------------------------------")
 # searchWord = input("Enter a word which you want to search it: ");
@@ -96,16 +96,87 @@ import re;
 #     print("Match not found at begining part")
 
 
-# search()
-searchWord = input("Enter a word which you want to search it: ");
+# search() -> Yeh sirf first occurance find krta hai means what agar hello suraj hello suraj agar data hai and hamne suraj ko find kia toh 1st occurance suraj ka data deta hai start() and end()
+# searchWord = input("Enter a word which you want to search it: ");
 
-mtch = re.search(searchWord, "Hello Suraj Indave")
+# mtch = re.search(searchWord, "Hello Suraj Indave")
 
-print(mtch);
+# print(mtch);
 
-if mtch!=None:
-    print("Match found at begining..")
-    print(mtch.start(), "....", mtch.end(), ".....", ", Word: ", mtch.group())
-else:
-    print("Match not found at begining part")
+# if mtch!=None:
+#     print("Match found at begining..")
+#     print(mtch.start(), "....", mtch.end(), ".....", ", Word: ", mtch.group())
+# else:
+#     print("Match not found at begining part")
+
+
+# findall() -> isko list meh convert krega output ko jo jo match hua hai voh
+# we used character classes
+
+# mtch = re.findall('[0-9]', "tsflhdalfhd@$44@@");
+# mtch = re.findall('[a-z]', "tsflhdalfhd@$44@@");
+# mtch = re.findall('[a-z0-9]', "tsflhdalfhd@$44@@");
+# mtch = re.findall('[^a-z0-9]', "tsflhdalfhd@$44@@");
+# mtch = re.findall('[^a-z0-9]', "tsflhdalfhd@$44@@ ");
+# mtch = re.findall('[^a-z0-9]', "tsflhdalfhd@$44@@ ");
+# mtch = re.findall('[a,b,c]', "tsflhdcbalfhd@$44@@ ");
+
+# print(mtch)
+
+
+# subsitute function -> sub(expression, replacement, data)
+
+# encryptedData = re.sub("[a-zU-Z]", "X", "23456 sdfgASDF sdfsADFE");
+# print(encryptedData)
+
+
+# subsitute N function -> subn(expression, replacement, data)
+# return "Data", "Count" in a tuple format 
+
+# encryptedData = re.subn("[a-zA-Z]", "X", "23456 sdfgASDF sdfsADFE");
+# print(encryptedData)
+
+
+import re;
+
+# emailId = input("Enter your Mail Id: ");
+
+# m = re.fullmatch("\w[0-9A-Z-a-z_.]*@gmail[.]com", emailId);
+
+# if m!=None:
+#     print("Yess Valid Email Id!! ")
+#     print("Your email Id: ", emailId);
+# else:
+#     print("Invalid emailId!!")
+#     print("Your email Id: ", emailId);
+
+# mo = input("ENter mobile number: ")
+# obj = re.fullmatch("[0-9]{9}", mo);
+
+# if obj!=None:
+#     print("Yess it's valid mobile number: ")
+#     print("Your Mobile number: ", mo);
+# else:
+#     print("Invalid mobile number: ")
+#     print("Your Mobile number: ", mo);
+
+
+# Regular expression with file handling
+
+searchData = input("Enter a word which you want to find it: ")
+file = open("Data.txt", "r");
+
+content = file.read()
+
+matchData = re.finditer(searchData, content);
+
+for i in matchData:
+    print(i.start(), "......", i.end(), ".....", " Found Word: ", i.group());
+    
+# if matchData!=None:
+#     print("Record is found....");
+
+#     print(matchData.start(), "......", matchData.end(), ".....", " Found Word: ", matchData.group());
+# else:
+#     print("No Match is found...")
 

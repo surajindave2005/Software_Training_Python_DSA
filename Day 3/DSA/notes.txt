@@ -88,3 +88,17 @@ Stack example -> WEB HISTORY
 
 Queue example:
     Point sales sys in resto 
+
+Recursion 
+    Application     
+        -When the main problem can be able to divide similar sub problem
+        - Base condition needed to stop the recursion.
+        
+    - Major used recursion 
+        - Tree and Graph
+
+Q) Which type of memory used recursion
+    -> Recursion used Stack memory 
+
+
+    
